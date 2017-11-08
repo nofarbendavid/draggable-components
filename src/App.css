@@ -1,0 +1,76 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif; }
+
+#root {
+  height: 100%; }
+
+.header {
+  color: #FFFFFF;
+  font-size: 2em;
+  font-weight: bold;
+  padding: 20px; }
+
+input, button {
+  border: none;
+  outline: none;
+  border-radius: 2px;
+  font-size: 13px; }
+
+input {
+  background-color: #EEF0F2;
+  width: 170px;
+  height: 20px; }
+
+button {
+  cursor: pointer;
+  width: 90px;
+  height: 25px;
+  background-color: #5C97C1;
+  color: #FFFFFF;
+  margin-right: 10px; }
+
+img {
+  border-radius: 2px; }
+
+.App {
+  height: 100%;
+  text-align: center;
+  background-color: #34516E;
+  overflow-x: hidden;
+  overflow-y: hidden; }
+
+.login-screen-container, .user-screen-container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+  .login-screen-container .section, .user-screen-container .section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px; }
+    .login-screen-container .section .title, .user-screen-container .section .title {
+      color: #A6A1A0;
+      padding-right: 10px;
+      font-size: 17px; }
+  .login-screen-container .button-section, .user-screen-container .button-section {
+    padding: 20px; }
+
+.user-section {
+  padding: 10px;
+  position: relative; }
+  .user-section .name {
+    color: #A6A1A0;
+    font-size: 20px;
+    text-transform: capitalize;
+    cursor: pointer;
+    display: inline-block; }
+  .user-section .image {
+    cursor: pointer;
+    display: inline-block; }
+
+.react-draggable {
+  margin: 10px; }

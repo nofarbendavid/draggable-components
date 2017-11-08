@@ -1,0 +1,67 @@
+@import 'index.scss';
+
+
+.App {
+  height: $max-height;
+  text-align: center;
+  background-color: #34516E;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+
+
+.login-screen-container, .user-screen-container{
+  height: $max-height;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+
+
+  .section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: $padding-narrow;
+
+    .title{
+      color: $text-color-gray;
+      padding-right: $padding-narrow;
+      font-size: 17px;
+    }
+  }
+
+  .button-section{
+    padding: $padding-wide;
+  }
+}
+
+
+
+.user-section {
+  padding: $padding-narrow;;
+  position: relative;
+
+
+  .name {
+    color: $text-color-gray;
+    font-size: 20px;
+    text-transform: capitalize;
+    cursor: pointer;
+    display: inline-block;
+  }
+
+  .image {
+    cursor: pointer;
+    display: inline-block;
+  }
+
+}
+
+.react-draggable{
+  margin: 10px;
+}
+
+
+
