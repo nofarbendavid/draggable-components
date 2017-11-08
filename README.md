@@ -11,11 +11,15 @@ Contain 2 main screens:
        
        
 You can login using the following usernames and passwords:       
-                  
-username      password
-MGeller       Pass@word1
-RGeller       Pass@word2
-CBing         Pass@word3
-RGreen        Pass@word4
-JTribbiani    Pass@word5
-PBuffay       Pass@word6
+
+MGeller -> Pass@word1
+
+RGeller -> Pass@word2
+
+CBing -> Pass@word3
+
+RGreen -> Pass@word4
+
+JTribbiani -> Pass@word5
+
+PBuffay ->  Pass@word6
