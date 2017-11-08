@@ -25,8 +25,8 @@ JTribbiani -> Pass@word5
 PBuffay ->  Pass@word6
 
 
-
+------------------------------
 Steps:
-1. clone / download repository.
+1. clone / download repository
 2. npm install
 3. npm start
